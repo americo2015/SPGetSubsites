@@ -1,1 +1,33 @@
 ﻿/* Place custom styles below */
+
+#lisSiteContainer ul {
+    list-style: none;
+    padding-left: 10px;
+}
+    #lisSiteContainer ul li {
+        display: inline-block;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        background: #e3e3e3;
+        border-radius: 5px;
+    }
+
+    #lisSiteContainer ul li a,
+    #lisSiteContainer ul li a:hover {
+        text-decoration: none;
+    }
+
+        #lisSiteContainer ul li a {
+            display: block;
+            padding: 10px 15px;
+            color: #000;
+            font-size: 1.2em;
+            border-radius: 5px;
+            transition: all 0.2s ease-in-out;
+        }
+
+            #lisSiteContainer ul li a:hover {
+                -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+                -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+                box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+            }
