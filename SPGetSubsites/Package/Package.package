@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="fc43a769-6929-45b8-bfd6-8c1a2fe26204" 
+        solutionId="fc43a769-6929-45b8-bfd6-8c1a2fe26204" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="SPGetSubsites"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="37164555-b3df-47b3-af9c-17245bdc4fb6" />
+  </features>
+</package>
