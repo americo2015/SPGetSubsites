@@ -1,4 +1,4 @@
-﻿/* Place custom styles below */
+﻿/* Place custom styles below 
 
 #lisSiteContainer ul {
     list-style: none;
@@ -8,21 +8,18 @@
         display: inline-block;
         margin-right: 10px;
         margin-bottom: 10px;
-        background: #e3e3e3;
-        border-radius: 5px;
+        background: rgba(66,87,104,1);
     }
 
-    #lisSiteContainer ul li a,
-    #lisSiteContainer ul li a:hover {
+        #lisSiteContainer ul li a, #lisSiteContainer ul li a:hover {
         text-decoration: none;
     }
 
         #lisSiteContainer ul li a {
             display: block;
-            padding: 10px 15px;
-            color: #000;
-            font-size: 1.2em;
-            border-radius: 5px;
+            padding: 7px 10px;
+            color: #fff;
+            font-size: 1em;
             transition: all 0.2s ease-in-out;
         }
 
@@ -30,4 +27,63 @@
                 -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
                 -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
                 box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+                background: rgba(3, 113, 126, 0.9);
+            }*/
+
+ul#easyPaginate {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+    ul#easyPaginate li.element {
+        display: inline-block;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        background: rgba(66,87,104,1);
+        min-width: none !important;
+    }
+
+        ul#easyPaginate li.element a, ul#easyPaginate li.element a:hover {
+            text-decoration: none;
+        }
+
+        ul#easyPaginate li.element a {
+            display: block;
+            padding: 7px 10px;
+            color: #fff;
+            font-size: 1em;
+            transition: all 0.2s ease-in-out;
+        }
+
+            ul#easyPaginate li.element a:hover {
+                -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+                -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+                box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+                background: rgba(3, 113, 126, 0.9);
             }
+
+.easyPaginateNav {
+    width: 500px;
+    background: lightgray;
+    font-size: 1.1em;
+    text-align:center;
+}
+    .easyPaginateNav a.first {
+        margin-right:5px;
+    }
+
+    .easyPaginateNav a.last {
+        margin-left: 5px;
+    }
+        .easyPaginateNav a.page {
+    display: inline-block;
+    padding: 10px 5px;
+    /*margin-right: 4px;*/
+}
+    .easyPaginateNav a.previous {
+
+    } 
+
+
+

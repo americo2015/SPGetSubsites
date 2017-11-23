@@ -13,6 +13,8 @@
     <script type="text/javascript" src="/_layouts/15/MicrosoftAjax.js"></script>
     <script type="text/javascript" src="/_layouts/15/sp.runtime.js"></script>
     <script type="text/javascript" src="/_layouts/15/sp.js"></script>
+    <script src="../Scripts/jquery.easyPaginate.js"></script>
+    <%--<link href="../Content/jquery.snippet.min.css" rel="stylesheet" />--%>
     <link href="../Content/App.css" rel="stylesheet" />
     <script type="text/javascript">
         // Set the style of the client web part page to be consistent with the host web.
@@ -84,7 +86,7 @@
 
             $(results).each(function () {
                 items.push('<li class="element">'
-                    + '<a href="' + this.Url + '">' + this.Title + '</a>'
+                    + '<a target="_parent" href="' + this.Url + '">' + this.Title + '</a>'
                     + '</li>');
             });
 
@@ -92,6 +94,12 @@
 
             var hideElement = $('#lisSiteContainer ul li a:contains("SPGetSubsites")');
             $(hideElement).css('display', 'none');
+
+            $('#easyPaginate').easyPaginate({
+                paginateElement: 'li',
+                elementsPerPage: 3,
+                effect: 'climb'
+            });
         }
 
 
@@ -115,7 +123,7 @@
 </head>
 <body>
     <div id="lisSiteContainer">
-        <ul>
+        <ul id="easyPaginate">
 
         </ul>
     </div>

@@ -42,10 +42,12 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="Content\jquery.snippet.min.css" />
     <Content Include="Pages\SPGgetSubSites.aspx" />
     <Content Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="Scripts\jquery.easyPaginate.js" />
     <Content Include="SPGgetSubSites\Elements.xml">
       <OpcRelationship>feature-elementmanifest</OpcRelationship>
     </Content>
